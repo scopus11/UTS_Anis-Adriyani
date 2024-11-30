@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Koperasi</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">DrynieSyariah</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">Tentang Koperasi</a></li>
+          <li><a href="#services">Jenis Koperasi</a></li>
+          <li><a href="#portfolio">Portofolio</a></li>
+          <li><a href="#pricing">Paket</a></li>
+          <li class="dropdown"><a href="#services"><span>Pilih</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#services">Koperasi Konsumen</a></li>
+              <li class="dropdown"><a href="#services"><span>Koperasi Jasa</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#services">Koperasi Transportasi</a></li>
+                  <li><a href="#services">Koperasi Pendidikan</a></li>
+                  <li><a href="#services">Koperasi Kesehatan</a></li>
+                </ul>
+              </li>
+              <li><a href="#services">Koperasi Pemasaran</a></li>
+              <li><a href="#services">Koperasi Produsen</a></li>
+            </ul>
+            <li><a href="#contact">Contact</a></li>  
+            <li><a href="#team">Profile</a></li>    
+          </li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="#pricing">Get Started</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
+            <h1>Koperasi DrynieSyariah</h1>
+            <p>Dapatkan keuntungan lebih, tingkatkan kesejahteraan bersama! Ayo gabung dengan koperasi kami sekarang juga.</p>
+            <div class="d-flex">
+              <a href="#pricing" class="btn-get-started">Get Started</a>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="Slide 1">
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients section light-background">
+
+      <div class="container" data-aos="zoom-in">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 60
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 80
+                },
+                "992": {
+                  "slidesPerView": 5,
+                  "spaceBetween": 120
+                },
+                "1200": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 120
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Clients Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Tentang Koperasi</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+            <p>
+              Prinsip dasar koperasi adalah pedoman yang diterapkan oleh koperasi DrynieSyariah dalam operasional dan pengelolaannya. Prinsip ini dirancang untuk memastikan koperasi berfungsi sesuai dengan nilai-nilai dan tujuan utamanya. Berikut prinsip dasar koperasi DrynieSyariah:
+            </p>
+            <ul>
+              <li><i class="bi bi-check2-circle"></i> <span>Keanggotaan bersifat sukarela dan terbuka.</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Pengelolaan bersifat demokratis.</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Partisipasi ekonomi anggota.</span></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <p>Koperasi yaitu organisasi yang dikelola oleh anggotanya untuk memenuhi kebutuhan ekonomi, sosial, dan budaya. Koperasi beroperasi dengan prinsip demokrasi, di mana setiap anggota memiliki hak suara yang sama dalam pengambilan keputusan. Koperasi dapat berfokus pada berbagai bidang, seperti konsumsi, produksi, simpan pinjam, dan jasa, dengan tujuan...</p>
+            <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Why Us Section -->
+    <section id="why-us" class="section why-us light-background" data-builder="section">
+
+      <div class="container-fluid">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
+
+            <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
+              <h3><span>SOLUSI DAN PENGEMBANGAN SESUAI DENGAN </span><strong>TEMA HARI KOPERASI</strong></h3>
+              <p>
+                Makmur Koperasinya, Makmurlah Hidup Mereka Bersama | Mohammad Hatta 
+              </p>
+            </div>
+
+            <div class="faq-container px-xl-5" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="faq-item faq-active">
+
+                <h3><span>01</span> Sistem Online dan Mobile</h3>
+                <div class="faq-content">
+                  <p>Memungkinkan koperasi memperluas jaringan pelayanan ke daerah-daerah dengan biaya lebih ekonomis dengan sistem ke agenan dan anggota bisa melakukan transaksi secara mobile.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>02</span> Cashless System Payment</h3>
+                <div class="faq-content">
+                  <p>Transaksi cashless untuk meminimalkan resiko transaksi antar anggota. Mengarahkan untuk memiliki simpanan kepemilikan anggota kemudian koperasi akan mempunyai sumber dana untuk diputarkan kembali ke anggota.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>03</span> DryniesMart ( Marketplace Koperasi )</h3>
+                <div class="faq-content">
+                  <p>Sebuah aplikasi untuk menampung koperasi dan anggota koperasi yang mempunyai produk/barang dagangan untuk di jual. Pembeli yang menjadi anggota koperasi akan mendapatkan harga khusus. Pembeli yang ingin menjadi anggota koperasi bisa melakukan pendaftaran menjadi anggota koperasi di kantor koperasi atau melalui agen koperasi yang terdekat.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-5 order-1 order-lg-2 why-us-img">
+            <img src="assets/img/why-us.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Why Us Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+
+          <div class="col-lg-6 d-flex align-items-center">
+            <img src="assets/img/skills.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 pt-4 pt-lg-0 content">
+
+            <h3>Diagram Kegiatan Koperasi Per Tahun 2024</h3>
+            <p class="fst-italic">
+              Diagram kegiatan koperasi DrynieSyariah di tahun 2024
+            </p>
+
+            <div class="skills-content skills-animation">
+
+              <div class="progress">
+                <span class="skill"><span>Usaha Pinjaman</span> <i class="val">30%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>Usaha Simpanan</span> <i class="val">25%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>Usaha Perdagangan Barang dan Jasa</span> <i class="val">25%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>investasi</span> <i class="val">20%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End Skills Item -->
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Jenis Koperasi</h2>
+        <p>Membantu Meningkatkan Perekonomian Masyarakat Indonesia</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-envelope"></i></div>
+              <h4><a href="" class="stretched-link">Koperasi Konsumen</a></h4>
+              <p>Kami menyediakan layanan koperasi konsumen untuk membantu anggota mendapatkan kebutuhan pokok dengan harga terjangkau dan sesuai prinsip syariah.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
+              <h4><a href="" class="stretched-link">Koperasi Jasa</a></h4>
+              <p>Layanan koperasi jasa mendukung kebutuhan anggota dalam bidang pelatihan, konsultasi, dan pembiayaan berbasis akad syariah.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-broadcast icon"></i></div>
+              <h4><a href="" class="stretched-link">Koperasi Pemasaran</a></h4>
+              <p>Kami membantu anggota memasarkan produk halal mereka ke pasar yang lebih luas melalui jaringan dan strategi pemasaran syariah.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
+              <h4><a href="" class="stretched-link">Koperasi Produsen</a></h4>
+              <p>Layanan koperasi produsen mendukung anggota dalam menyediakan bahan baku dan meningkatkan kapasitas produksi dengan prinsip berbagi hasil.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section dark-background">
+
+      <img src="assets/img/cta-bg.jpg" alt="">
+
+      <div class="container">
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-9 text-center text-xl-start">
+            <h3>Call To Action</h3>
+            <p>Ingin tahu tentang produk koperasi kami dan ingin mencoba demo aplikasi DryniesMart? dapatkan user login dan informasi lengkap dengan menghubungi kami.</p>
+          </div>
+          <div class="col-xl-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#">Call To Action</a>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portofolio</h2>
+        <p>Dokumentasi Kegiatan Koperasi</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">Team</li>
+            <li data-filter=".filter-product">Service</li>
+            <li data-filter=".filter-branding">Savings</li>
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/portofolio/team.1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Team 1</h4>
+                <p>Kebersamaan</p>
+                <a href="assets/img/portofolio/team.1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/portofolio/service.1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Service 1</h4>
+                <p>Melayani Anggota</p>
+                <a href="assets/img/portofolio/service.1.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/portofolio/savings.1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Savings 1</h4>
+                <p>Kurva Profit</p>
+                <a href="assets/img/portofolio/savings.1.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/portofolio/team.2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Team 2</h4>
+                <p>Perencanaan Produk</p>
+                <a href="assets/img/portofolio/team.2.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/portofolio/service.2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Service 2</h4>
+                <p>Demo Aplikasi DryniesMart</p>
+                <a href="assets/img/portofolio/service.2.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/portofolio/savings.2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Savings 2 </h4>
+                <p>Penghitungan Awal Periode Pembukuan</p>
+                <a href="assets/img/portofolio/savings.2.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/portofolio/team.3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Team 3</h4>
+                <p>Pemasaran Produk</p>
+                <a href="assets/img/portofolio/team.3.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/portofolio/service.3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Service 3</h4>
+                <p>Perencanaan Produksi dengan Pengrajin</p>
+                <a href="assets/img/portofolio/service.3.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/portofolio/savings.3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Savings 3</h4>
+                <p>Sisa Hasil Usaha</p>
+                <a href="assets/img/portofolio/savings.3.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+        
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Paket Keanggotaan</h2>
+        <p>Pilih Paket Keanggotaan yang Sesuai dengan Kebutuhan Anda</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="pricing-item">
+              <h3>Simpanan Dasar (Free Plan)</h3>
+              <h4><sup>Rp.</sup>0<span>/bulan</span></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Pendaftaran sebagai anggota koperasi</span></li>
+                <li><i class="bi bi-check"></i> <span>Akses ke rapat anggota tahunan</span></li>
+                <li><i class="bi bi-check"></i> <span>Layanan konsultasi keuangan dasar</span></li>
+                <li><i class="bi bi-check"></i> <span>Tidak termasuk pembiayaan atau bagi hasil</span></li>
+              </ul>
+              <a href="#" class="buy-btn">Gabung Sekarang</a>
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="pricing-item featured">
+              <h3>Paket Usaha (Business Plan)</h3>
+              <h4><sup>Rp.</sup>75.000<span>/bulan</span></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Semua keuntungan Simpanan Dasar</span></li>
+                <li><i class="bi bi-check"></i> <span>Akses pembiayaan mikro berbasis akad murabaha (jual beli dengan margin keuntungan yang disepakati)</span></li>
+                <li><i class="bi bi-check"></i> <span>Keuntungan bagi hasil hingga 3% per bulan, berdasarkan akad mudharabah atau musyarakah</span></li>
+                <li><i class="bi bi-check"></i> <span>Dukungan konsultasi dan pendampingan pengembangan usaha</span></li>
+              </ul>
+              <a href="#" class="buy-btn">Gabung Sekarang</a>
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="pricing-item">
+              <h3>Paket Investasi (Developer Plan)</h3>
+              <h4><sup>Rp.</sup>120.000<span>/bulan</span></h4>
+              <ul>
+                <li><i class="bi bi-check"></i> <span>Semua keuntungan Paket Usaha</span></li>
+                <li><i class="bi bi-check"></i> <span>Investasi berbasis syariah dengan keuntungan lebih tinggi, melalui mudharabah atau musyarakah</span></li>
+                <li><i class="bi bi-check"></i> <span>Akses ke program simpanan berjangka berbasis mudharabah</span></li>
+                <li><i class="bi bi-check"></i> <span>Prioritas dalam layanan pembiayaan dan produk keuangan syariah lainnya</span></li>
+              </ul>
+              <a href="#" class="buy-btn">Gabung Sekarang</a>
+            </div>
+          </div><!-- End Pricing Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Pricing Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Testimoni</h2>
+        <p>Apa Kata Mereka?</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Usman Ma'ruf</h3>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Pelayanan DrynieSyariah ini sangat ramah sekali, membantu saya untuk berbisnis dengan aman dan nyaman serta dapat memasarkan produk saya dengan harga yang kompetitif, good job DrynieSyariah!</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Maya Laura</h3>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Terima Kasih DrynieSyariah. Sekarang saya dapat menyekolahkan anak saya. Maju dan berkembang terus DrynieSyariah.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Tiara Laras</h3>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Dengan adanya DrynieSyariah sangat membantu untuk pendidikan saya saat ini, pelayanan yang sangat ramah dengan prosedur yang jelas sudah sepantasnya diberi bintang 5.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Saiful Umam</h3>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Terima kasih DrynieSyariah atas bantuan modal usaha saya saat ini, pelayanan yang bagus dan cepat membuat saya bersyukur dengan adanya DrynieSyariah.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>Baskara Wijaya</h3>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Terima kasih DrynieSyariah telah membantu saya meningkatkan produksi terutama bagi saya sebagai produsen barang.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+          </div>
+          <div class="swiper-pagination"></div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Faq 2 Section -->
+    <section id="faq-2" class="faq-2 section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Frequently Asked Questions</h2>
+        <p>Temukan jawaban dari pertanyaan yang sering diajukan tentang layanan dan sistem Koperasi DrynieSyariah kami di bawah ini.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row justify-content-center">
+
+          <div class="col-lg-10">
+
+            <div class="faq-container">
+
+              <div class="faq-item faq-active" data-aos="fade-up" data-aos-delay="200">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Berapa besar simpanan pokok yang harus dibayarkan untuk menjadi anggota?</h3>
+                <div class="faq-content">
+                  <p>Simpanan pokok di DrynieSyariah adalah Rp500.000, yang dibayarkan sekali seumur hidup saat pendaftaran dan tidak dapat ditarik kembali.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="300">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Berapa minimal dan maksimal pinjaman yang bisa diajukan?</h3>
+                <div class="faq-content">
+                  <p>Minimal pinjaman yang bisa diajukan adalah Rp1.000.000, sementara maksimalnya tergantung pada nilai simpanan anggota dan analisis kelayakan, dengan batas maksimal hingga Rp50.000.000.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="400">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Apa saja syarat pengajuan pinjaman di koperasi DrynieSyariah?</h3>
+                <div class="faq-content">
+                  <p>Syarat utama pengajuan pinjaman meliputi: menjadi anggota koperasi minimal selama 6 bulan, menyediakan dokumen seperti fotokopi KTP, kartu anggota koperasi, dan bukti penghasilan, menyepakati akad pembiayaan syariah yang disetujui bersama.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="500">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Berapa lama jangka waktu pengembalian pinjaman?</h3>
+                <div class="faq-content">
+                  <p>Jangka waktu pengembalian pinjaman bervariasi mulai dari 6 bulan hingga 24 bulan, tergantung pada kesepakatan dan kemampuan angsuran anggota.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item" data-aos="fade-up" data-aos-delay="600">
+                <i class="faq-icon bi bi-question-circle"></i>
+                <h3>Bagaimana sistem bagi hasil dari simpanan anggota?</h3>
+                <div class="faq-content">
+                  <p>Simpanan anggota di DrynieSyariah menggunakan sistem mudharabah (bagi hasil). Keuntungan yang diperoleh koperasi dari usaha akan dibagi sesuai dengan kesepakatan, misalnya 70% untuk anggota dan 30% untuk operasional koperasi.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Faq 2 Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Hubungi kami untuk informasi dan keterangan lebih lengkap melalui kolom formulir dibawah ini!</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>Jl. Sawo No 33b, Pondok Cina, Beji, Depok</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Us</h3>
+                  <p>085794953581</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>anisadriyani58@gmail.com</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.2460198628746!2d106.83016957355655!3d-6.36219716223595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ed8ce7a5c92d%3A0x7842d125889fbbba!2sKANTOR%20SEKRETARIAT%20SENKOM%20MITRA%20POLRI%20KOTA%20DEPOK!5e0!3m2!1sen!2sus!4v1732754604400!5m2!1sen!2sus" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Nama (Wajib diisi)</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Email (Wajib diisi)</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Judul</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Pesan</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <!-- <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div> -->
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+  
+   <!-- Team Section -->
+   <section id="team" class="team section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Profil Pengembang</h2>
+      <p>Web ini dikembangkan oleh: </p>
+    </div><!-- End Section Title -->  
+
+    <div class="container">
+
+      <div class="row gy-4 center">
+
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="team-member d-flex align-items-start">
+            <div class="pic"><img src="assets/img/team/profile-1.jpeg" class="img-fluid" alt=""></div>
+            <div class="member-info">
+              <h4>Anis Adriyani</h4> 
+              <span>Mahasiswi Teknik Informatika Sekolah Tinggi Teknologi Terpadu Nurul Fikri</span>
+              <p>Mengembangkan Web Landing Page Koperasi</p>
+              <div class="social">
+                <a href="https://www.instagram.com/anisadryni_/profilecard/?igsh=MXUxZjJ1MXA0M3Fpdg=="><i class="bi bi-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/anis-adriyani-4a5b0332b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="bi bi-linkedin"></i> </a>
+                <a href="https://github.com/scopus11"><i class="bi bi-github"></i></a>
+              </div>
+            </div>
+          </div>
+        </div><!-- End Team Member -->
+      </div>
+    </div>
+  </section><!-- /Team Section -->
+            
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-6">
+            <h4>Bergabunglah dengan Newsletter Kami</h4>
+            <p>Daftarkan email Anda untuk menerima berita terbaru tentang produk dan layanan kami!"</p>
+            <form action="forms/newsletter.php" method="post" class="php-email-form">
+              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+              <!-- <div class="loading">Loading</div> -->
+              <!-- <div class="error-message"></div> -->
+              <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Anis</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
